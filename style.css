@@ -20,3 +20,34 @@ nav ul li a:hover {
     background-color: darkgray; /* Hintergrundfarbe beim hovern */
     color: white; /* Textfarbe beim hovern */
 }
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.fixed-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fixed-footer ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    background-color: lightgray;
+}
+
+.fixed-footer ul li a:hover {
+    background-color: darkgray;
+    color: white;
+}
