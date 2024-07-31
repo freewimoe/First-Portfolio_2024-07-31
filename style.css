@@ -1,7 +1,7 @@
 body{
     font-family: Garamond, serif;
 }
-.h1-center {
+.center-text {
     text-align: center;
 }
 .fixed-nav {
@@ -74,6 +74,7 @@ nav ul li a:hover {
     max-width: 100%;
     height: auto;
     max-height: 500px; /* Maximale Höhe für Desktops */
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -93,6 +94,7 @@ nav ul li a:hover {
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 .box {
     background-color: #f0f0f0;
