@@ -1,0 +1,22 @@
+nav ul {
+    list-style-type: none; /* Aufzählungszeichen raus */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Elemente sollen nebeneinander stehen */
+    margin-right: 10px; /* etwas Abstand zwischen den Elementen */
+}
+
+nav ul li a {
+    text-decoration: none; /* ohne die Unterstreichen der links */
+    color: black; /* Text */
+    padding: 10px 15px; /* der Innenabstand */
+    background-color: lightgray; /* die Hintergrundfarbe */
+}
+
+nav ul li a:hover {
+    background-color: darkgray; /* Hintergrundfarbe beim hovern */
+    color: white; /* Textfarbe beim hovern */
+}
