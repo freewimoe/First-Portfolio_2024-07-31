@@ -1,6 +1,13 @@
 body{
     font-family: Garamond, serif;
 }
+.life {
+    background-image: url('images/Henry_Purcell_kid-768x768.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5; 
+}
 .center-text {
     text-align: center;
 }
