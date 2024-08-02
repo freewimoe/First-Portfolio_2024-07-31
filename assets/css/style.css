@@ -19,6 +19,8 @@ body{
     margin: 0;
     padding: 0;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .fixed-nav ul li {
@@ -36,6 +38,8 @@ body{
 nav ul li a:hover {
     background-color: darkgray; /* turns dark while hovering */
     color: white; /* text turns white while hovering*/
+    padding: 10px 15px, 
+    background-color: lightgray;
 }
 
 .fixed-footer {
