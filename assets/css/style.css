@@ -39,7 +39,7 @@ nav ul li a:hover {
     background-color: darkgray; /* turns dark while hovering */
     color: white; /* text turns white while hovering*/
     padding: 10px 15px, 
-    background-color: lightgray;
+    background-color: lightgray; 
 }
 
 .fixed-footer {
