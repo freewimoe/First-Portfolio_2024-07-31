@@ -79,7 +79,7 @@ nav ul li a:hover {
 .responsive-img {
     max-width: 100%;
     height: auto;
-    max-height: 500px; /* Maximale Höhe für Desktops */
+    max-height: 500px; /* Maximal height for Desktops */
     text-align: center;
 }
 .responsive-img-link {
@@ -94,13 +94,20 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
     .responsive-img {
-        max-height: 300px; /* Maximale Höhe für Tablets */
+        max-height: 300px; /* Maximal height for Tablets */
+    }
+}
+@media (max-width:600px) {
+    .fixed-nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
 
 @media (max-width: 480px) {
     .responsive-img {
-        max-height: 200px; /* Maximale Höhe für Smartphones */
+        max-height: 200px; /* Maximal height for Smartphones */
     }
 }
 .container {
