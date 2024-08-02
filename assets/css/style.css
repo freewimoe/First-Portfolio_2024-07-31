@@ -18,7 +18,7 @@ body{
     list-style-type: none; /* no bullets */
     margin: 0;
     padding: 0;
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
 }
@@ -38,9 +38,13 @@ body{
 nav ul li a:hover {
     background-color: darkgray; /* turns dark while hovering */
     color: white; /* text turns white while hovering*/
-    padding: 10px 15px, 
-    background-color: lightgray; 
+        
 }
+@media (max-width:600px) {
+    .fixed-nav ul li {
+        flex: 100%; 
+        margin-bottom: 10px;
+    }
 
 .fixed-footer {
     position: fixed;
@@ -97,12 +101,7 @@ nav ul li a:hover {
         max-height: 300px; /* Maximal height for Tablets */
     }
 }
-@media (max-width:600px) {
-    .fixed-nav ul li {
-        display: block;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+
 }
 
 @media (max-width: 480px) {
