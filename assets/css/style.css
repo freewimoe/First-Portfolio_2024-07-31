@@ -20,7 +20,7 @@ nav {
   color: white;
 }
 
-ul {
+#menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -54,13 +54,13 @@ a:hover {
       display: block;
   }
 
-  ul {
+  #menu {
       display: none;
       flex-direction: column;
       width: 100%;
   }
 
-  #menu-toggle:checked + .menu-icon + ul {
+  #menu-toggle:checked + .menu-icon + #menu {
       display: flex;
   }
 
