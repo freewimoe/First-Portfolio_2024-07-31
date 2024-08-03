@@ -52,22 +52,22 @@ a:hover {
 
 @media (max-width: 768px) {
   .menu-icon {
-      display: block;
+    display: block;
   }
 
   #menu {
-      display: none;
-      flex-direction: column;
-      width: 100%;
+    display: none;
+    flex-direction: column;
+    width: 100%;
   }
 
   #menu-toggle:checked + .menu-icon + #menu {
-      display: flex;
+    display: flex;
   }
 
   li {
-      margin: 10px 0;
-      text-align: center;
+    margin: 10px 0;
+    text-align: center;
   }
 }
 .highlight {
@@ -76,37 +76,37 @@ a:hover {
   color: darkslateblue;
 }
 
-  .fixed-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: lightgray;
-    text-align: center;
-    padding: 10px 0;
-  }
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px 0;
+}
 
-  .fixed-footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+.fixed-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .fixed-footer ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
+.fixed-footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
 
-  .fixed-footer ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 15px;
-    background-color: lightgray;
-  }
+.fixed-footer ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  background-color: lightgray;
+}
 
-  .fixed-footer ul li a:hover {
-    background-color: darkgray;
-    color: white;
-  }
+.fixed-footer ul li a:hover {
+  background-color: darkgray;
+  color: white;
+}
 
 .responsive-img {
   width: 30%;
